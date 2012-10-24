@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:background="@drawable/fon"
+>
+<LinearLayout 
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+ >
+
+
+	<TextView 
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="About App: "
+		android:textColor="#3B95FF"
+		android:textSize="22dp"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:textSize="16dp"
+		android:textColor="#332927"
+		android:text="Ever been hopelessly trying to decide which movie to watch or what to wear today?
+		Have a hard decision to make or can't make a choice which really doesn't matter?
+		Don't flip a coin, it's XXI, use your smartphone! Random Service will help you to choose,
+		just enter your options and let this app decide. Make choices faster and easier!"/>
+			<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:textSize="22dp"
+		android:textColor="#3B95FF"
+		android:text="Creators: "/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:textSize="18dp"
+		android:textColor="#0B0E02"
+		android:text="Developer: Ivan Shvets"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:textSize="18dp"
+		android:textColor="#0B0E02"
+		android:text="Designer: Igor Danko"/>
+
+    </LinearLayout>
+</ScrollView>
